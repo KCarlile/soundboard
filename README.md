@@ -2,6 +2,13 @@
 
 This soundboard is intended for entertainment purposes for reactions. To use, load the URL at which the soundboard is deployed and click the buttons to trigger sounds.
 
+## Author
+
+Kenny Carlile
+
+- [KCarlile.com](KCarlile.com)
+- [KCarlile on GitHub](https://github.com/KCarlile)
+
 ## Limitations
 
 This soundboard requires minimal coding skills to customize and implement. At this time, there are no plans to make this fully managed (e.g. ability to upload sounds), so this is not meant to be a turnkey solution for non-technical users.
@@ -125,5 +132,8 @@ The fields in the `sounds/sounds.json` file are used like this:
 ## References
 
 - [Sound board with vanilla JavaScript](https://www.youtube.com/watch?v=E-v4SSCG6i4)
-- [Twitter Bootstrap 5](https://getbootstrap.com/docs/5.0/)
-- [jQuery](https://jquery.com/)
+  - Some initial inspiration was taken from this tutorial, but this work drifted from that original example.
+- [Twitter Bootstrap 5.2](https://getbootstrap.com/docs/5.2/)
+  - Bootstrap is used for base styling.
+- [jQuery 3.6](https://jquery.com/)
+  - jQuery is used for loading the JSON data and for some handy JavaScript functions.

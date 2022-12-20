@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# server
+#
+# This bash script file contains the command to launch a docker
+# container for local development and testing of this application.
+#
+# Author: Kenny Carlile (KCarlile.com)
+# Source: https://github.com/KCarlile/soundboard
+
 echo ""
 echo "========================================"
 echo "URL: http://soundboard.local"

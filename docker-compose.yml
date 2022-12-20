@@ -1,3 +1,11 @@
+# Dockerfile
+#
+# This docker-compose file contains the command to build a basic
+# Apache container.
+#
+# Author: Kenny Carlile (KCarlile.com)
+# Source: https://github.com/KCarlile/soundboard
+
 version: '3.9'
 services:
     kcarlile-httpd:

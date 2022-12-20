@@ -1,3 +1,9 @@
-FROM php:8.1.9-apache
+# Dockerfile
+#
+# This dockerfile contains the command to build a basic
+# Apache container.
+#
+# Author: Kenny Carlile (KCarlile.com)
+# Source: https://github.com/KCarlile/soundboard
 
-RUN a2enmod rewrite
+FROM httpd:latest

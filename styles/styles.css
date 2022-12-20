@@ -1,3 +1,13 @@
+/**
+ * styles/styles.css
+ * 
+ * This CSS file is used to override or customize any styling
+ * not provided by Twitter Bootstrap.
+ * 
+ * Author: Kenny Carlile (KCarlile.com)
+ * Source: https://github.com/KCarlile/soundboard
+ */
+
 #buttons {
     width: 56em;
 }
