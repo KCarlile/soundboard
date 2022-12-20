@@ -1,0 +1,46 @@
+{
+    "sounds": [
+        {
+            "id": "crowd-applause",
+            "name": "Crowd Applause",
+            "source": "Crowd clapping",
+            "category": "Positive",
+            "filename": "applause.wav"
+        },
+        {
+            "id": "game-bonus",
+            "name": "Game Bonus",
+            "source": "Game sounds",
+            "category": "Positive",
+            "filename": "game-bonus.wav"
+        },
+        {
+            "id": "joke-rimshot",
+            "name": "Joke - Rimshot",
+            "source": "Joke - Rimshot",
+            "category": "Funny",
+            "filename": "rimshot.m4a"
+        },
+        {
+            "id": "sad-trombone",
+            "name": "Sad Trombone",
+            "source": "Sad Trombone",
+            "category": "Negative",
+            "filename": "sad-trombone.m4a"
+        },
+        {
+            "id": "yay",
+            "name": "Yay",
+            "source": "Yay",
+            "category": "Positive",
+            "filename": "yay.mp3"
+        },
+        {
+            "id": "wha-pssh",
+            "name": "Wha-pssh!",
+            "source": "Karate Chop",
+            "category": "Neutral",
+            "filename": "wha-pssh.mp3"
+        }
+    ]
+}

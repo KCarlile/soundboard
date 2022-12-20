@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Soundboard</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link type="image/png" sizes="16x16" rel="icon" href="images/favicon-16x16.png">
+        <link type="image/png" sizes="32x32" rel="icon" href="images/favicon-32x32.png">
+        <link type="image/png" sizes="96x96" rel="icon" href="images/favicon-96x96.png">
+    </head>
+    <body class="bg-dark text-light p-5">
+        <div class="container">
+            <header class="mb-5">
+                <h1>Soundboard</h1>
+                <p>Categories: <a href="#Funny">Funny</a> | <a href="#Positive">Positive</a> | <a href="#Neutral">Neutral</a> | <a href="#Negative">Negative</a></p>
+            </header>
+            <div id="audioElements">
+                <!-- <audio> elements will be dynamically added here via soundboard.js -->
+            </div>
+            <div id="buttonsFunny">
+                <h5><a name="Funny"></a>Funny</h5>
+                <!-- <button> elements will be dynamically added here via soundboard.js -->
+            </div>
+            <div id="buttonsPositive">
+                <h5><a name="Positive"></a>Positive</h5>
+                <!-- <button> elements will be dynamically added here via soundboard.js -->
+            </div>
+            <div id="buttonsNeutral">
+                <h5><a name="Neutral"></a>Neutral</h5>
+                <!-- <button> elements will be dynamically added here via soundboard.js -->
+            </div>
+            <div id="buttonsNegative">
+                <h5><a name="Negative"></a>Negative</h5>
+                <!-- <button> elements will be dynamically added here via soundboard.js -->
+            </div>
+            <footer class="border-top border-light fs-6 fw-light mt-5">
+                <p class="mt-3"><a href="https://github.com/KCarlile">KCarlile's Soundboard</a> | <a href="https://github.com/KCarlile/soundboard">GitHub Source</a></p>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+        <script src="js/soundboard.js"></script>
+    </body>
+</html>

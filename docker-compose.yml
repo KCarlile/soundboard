@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+    kcarlile-httpd:
+        build: .
+        image: httpd:latest
+        volumes:
+            - ./:/var/www/html/
+        container_name: soundboard-httpd
+        ports:
+            - 80:80

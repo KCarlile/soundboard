@@ -1,0 +1,19 @@
+#buttons {
+    width: 56em;
+}
+
+.btn {
+    height: 12em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    width: 12em;
+}
+
+.soundName {
+    font-size: 1.2em;
+}
+
+.soundSource {
+    display: block;
+    font-size: .8em;
+}
