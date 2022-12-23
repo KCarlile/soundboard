@@ -76,7 +76,7 @@ function addButton(sound) {
     button.classList.add('btn');
     button.classList.add(categoryToClass(sound.category));
     button.type = 'button';
-    button.innerHTML = `<span class="soundName fw-bold">${sound.name}</span><span class="soundSource mt-3 fst-italic">${sound.source}</span>`;
+    button.innerHTML = `<span class="soundName fw-bold">${sound.name}</span><span class="soundSource mt-2 fst-italic">${sound.source}</span>`;
 
     // handle the click event for playing the sound
     button.addEventListener('click', ()=>{
